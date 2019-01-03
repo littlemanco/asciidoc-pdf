@@ -1,0 +1,6 @@
+= asciidoc-pdf
+
+A theme for Asciidoc PDFs
+
+The theme can be tested against 
+https://raw.githubusercontent.com/asciidoctor/asciidoctor-pdf/master/examples/chronicles-example.adoc[the test material in the adoc repository]
