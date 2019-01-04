@@ -241,14 +241,18 @@ footer:
   # * {section-or-chapter-title}
   recto:
     #columns: "<50% =0% >50%"
+    left:
+      content: 'image:img/logo.png[pdfwidth=.15in] | littleman.co'
     right:
-      content: '{page-number}'
+      content: '{document-title} | {page-number}'
       #content: '{section-or-chapter-title} | {page-number}'
       # content: '{document-title} | {page-number}'
   verso:
     #columns: $footer_recto_columns
-    left:
+    right:
       content: $footer_recto_right_content
+    left:
+      content: $footer_recto_left_content
       #content: '{page-number} | {chapter-title}'
     #center:
     #  content: '{page-number}'
